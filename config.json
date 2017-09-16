@@ -1,0 +1,6 @@
+{
+    "dconf_combo_to_switch_layout": "<Shift><Control>0",
+    "actual_combo_to_switch_layout": ["XK_Shift_L", "XK_Control_L", "XK_0"],
+    "expected_combo_to_switch_layout": ["XK_Shift_L", "XK_Control_L"],
+    "exit_combo_to_close_script": ["XK_Shift_L", "XK_Control_L", "XK_Escape"]
+}
