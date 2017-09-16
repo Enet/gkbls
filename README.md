@@ -21,6 +21,6 @@ git clone git@github.com:Enet/gkbls.git
 cd gkbls && python main.py
 ```
 
-If you want to use Alt+Shift rather that Control+Shift, it is required to modify **config.json**: replace *XK_Control_L* to *XK_Alt_L* **only** for key **expected_combo_to_switch_layout**. Be careful during configuration, because it's very sensitive to the assigned keys (some combinations don't work for some reasons).
+If you want to use Alt+Shift rather than Control+Shift, it is required to modify **config.json**: replace *XK_Control_L* to *XK_Alt_L* **only** for key **expected_combo_to_switch_layout**. Be careful during configuration, because it's very sensitive to the assigned keys (some combinations don't work for some reasons).
 
 Also be free to use empty array for **exit_combo_to_close_script** if you're going to add **gkbls** to autostart.
