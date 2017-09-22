@@ -1,4 +1,5 @@
 import subprocess
+from os import path
 from json import load
 from functools import partial
 from Xlib import X, XK
@@ -21,7 +22,7 @@ class Gkbls():
         self.current_expected_combo = set()
         self.current_exit_combo = set()
         
-        with open('./config.json') as config_file:
+        with open(path.join(path.dirname(__file__), './config.json')) as config_file:
             config_data = load(config_file)
             self.config_actual_combo = set(config_data['actual_combo_to_switch_layout'])
             self.config_expected_combo = set(config_data['expected_combo_to_switch_layout'])
